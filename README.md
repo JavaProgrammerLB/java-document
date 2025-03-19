@@ -368,27 +368,46 @@
 - JEP185: [Restrict Fetching of External XML Resources](http://openjdk.java.net/jeps/185)
 
 # [Java 7](https://openjdk.org/projects/jdk7/)([Feature](https://openjdk.org/projects/jdk7/milestones/))
-- [JSR 292: Support for dynamically-typed languages (InvokeDynamic)](https://openjdk.org/projects/jdk7/features/##f353)
-- [Strict class-file checking](https://openjdk.org/projects/jdk7/features/##fa535991)
-- [JSR 334: Small language enhancements (Project Coin)](https://openjdk.org/projects/jdk7/features/##f618)
-- [Upgrade class-loader architecture](https://openjdk.org/projects/jdk7/features/##f352)
-- [Method to close a URLClassLoader](https://openjdk.org/projects/jdk7/features/##f584)
-- [Concurrency and collections updates (jsr166y)](https://openjdk.org/projects/jdk7/features/##f515)
-- [Unicode 6.0](https://openjdk.org/projects/jdk7/features/##f497)
-- [Locale enhancement](https://openjdk.org/projects/jdk7/features/##fa535895)
-- [Separate user locale and user-interface locale](https://openjdk.org/projects/jdk7/features/##fa538265)
-- [JSR 203: More new I/O APIs for the Java platform (NIO.2)](https://openjdk.org/projects/jdk7/features/##f250)
-- [NIO.2 filesystem provider for zip/jar archives](https://openjdk.org/projects/jdk7/features/##fa537814)
-- [SCTP (Stream Control Transmission Protocol)](https://openjdk.org/projects/jdk7/features/##f405)
-- [SDP (Sockets Direct Protocol)](https://openjdk.org/projects/jdk7/features/##f639)
-- [Use the Windows Vista IPv6 stack](https://openjdk.org/projects/jdk7/features/##fa535996)
-- [TLS 1.2](https://openjdk.org/projects/jdk7/features/##fa534339)
-- [Elliptic-curve cryptography (ECC)](https://openjdk.org/projects/jdk7/features/##f73)
-- [JDBC 4.1](https://openjdk.org/projects/jdk7/features/##fa539110)
-- [XRender pipeline for Java 2D](https://openjdk.org/projects/jdk7/features/##f653)
-- [Create new platform APIs for 6u10 graphics features](https://openjdk.org/projects/jdk7/features/##f650)
-- [Nimbus look-and-feel for Swing](https://openjdk.org/projects/jdk7/features/##f244)
-- [Swing JLayer component](https://openjdk.org/projects/jdk7/features/##f652)
-- [Gervill sound synthesizer](https://openjdk.org/projects/jdk7/features/##fa99999)
-- [Update the XML stack](https://openjdk.org/projects/jdk7/features/##f568)
-- [Enhanced MBeans](https://openjdk.org/projects/jdk7/features/##fa530068)
+## vm
+- [JSR 292: Support for dynamically-typed languages (InvokeDynamic)](https://openjdk.org/projects/jdk7/features/#f353)
+- [Strict class-file checking](https://openjdk.org/projects/jdk7/features/#fa535991)
+
+## lang
+- [JSR 334: Small language enhancements (Project Coin)](https://openjdk.org/projects/jdk7/features/#f618)
+
+## core
+- [Upgrade class-loader architecture](https://openjdk.org/projects/jdk7/features/#f352)
+- [Method to close a URLClassLoader](https://openjdk.org/projects/jdk7/features/#f584)
+- [Concurrency and collections updates (jsr166y)](https://openjdk.org/projects/jdk7/features/#f515)
+
+## i18n
+- [Unicode 6.0](https://openjdk.org/projects/jdk7/features/#f497)
+- [Locale enhancement](https://openjdk.org/projects/jdk7/features/#fa535895)
+- [Separate user locale and user-interface locale](https://openjdk.org/projects/jdk7/features/#fa538265)
+
+## ionet
+- [JSR 203: More new I/O APIs for the Java platform (NIO.2)](https://openjdk.org/projects/jdk7/features/#f250)
+- [NIO.2 filesystem provider for zip/jar archives](https://openjdk.org/projects/jdk7/features/#fa537814)
+- [SCTP (Stream Control Transmission Protocol)](https://openjdk.org/projects/jdk7/features/#f405)
+- [SDP (Sockets Direct Protocol)](https://openjdk.org/projects/jdk7/features/#f639)
+- [Use the Windows Vista IPv6 stack](https://openjdk.org/projects/jdk7/features/#fa535996)
+- [TLS 1.2](https://openjdk.org/projects/jdk7/features/#fa534339)
+
+## sec
+- [Elliptic-curve cryptography (ECC)](https://openjdk.org/projects/jdk7/features/#f73)
+
+## jdbc
+- [JDBC 4.1](https://openjdk.org/projects/jdk7/features/#fa539110)
+
+## client
+- [XRender pipeline for Java 2D](https://openjdk.org/projects/jdk7/features/#f653)
+- [Create new platform APIs for 6u10 graphics features](https://openjdk.org/projects/jdk7/features/#f650)
+- [Nimbus look-and-feel for Swing](https://openjdk.org/projects/jdk7/features/#f244)
+- [Swing JLayer component](https://openjdk.org/projects/jdk7/features/#f652)
+- [Gervill sound synthesizer](https://openjdk.org/projects/jdk7/features/#fa99999)
+
+## web
+- [Update the XML stack](https://openjdk.org/projects/jdk7/features/#f568)
+
+## mgmt
+- [Enhanced MBeans](https://openjdk.org/projects/jdk7/features/#fa530068)
