@@ -310,7 +310,7 @@
 - JEP298: [Remove Demos and Samples](https://openjdk.org/jeps/298)
 - JEP299: [Reorganize Documentation](https://openjdk.org/jeps/299)
 
-# [Java 8](https://openjdk.org/projects/jdk8/)([Feature](https://openjdk.org/projects/jdk8/milestones#General_Availability))
+# [Java 8](https://openjdk.org/projects/jdk8/)([Feature](https://openjdk.org/projects/jdk8/milestones))
 - JEP117: [Remove the Annotation-Processing Tool (apt)](http://openjdk.java.net/jeps/117)
 - JEP124: [Enhance the Certificate Revocation-Checking API](http://openjdk.java.net/jeps/124)
 - JEP130: [SHA-224 Message Digests](http://openjdk.java.net/jeps/130)
