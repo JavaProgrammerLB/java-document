@@ -1,0 +1,1905 @@
+[
+    {
+        "id": 24,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Generational Shenandoah (Experimental)",
+                "id": 404,
+                "jepUrl": "https://openjdk.org/jeps/404"
+            },
+            {
+                "featureName": "Compact Object Headers (Experimental)",
+                "id": 450,
+                "jepUrl": "https://openjdk.org/jeps/450"
+            },
+            {
+                "featureName": "Prepare to Restrict the Use of JNI",
+                "id": 472,
+                "jepUrl": "https://openjdk.org/jeps/472"
+            },
+            {
+                "featureName": "Late Barrier Expansion for G1",
+                "id": 475,
+                "jepUrl": "https://openjdk.org/jeps/475"
+            },
+            {
+                "featureName": "Key Derivation Function API (Preview)",
+                "id": 478,
+                "jepUrl": "https://openjdk.org/jeps/478"
+            },
+            {
+                "featureName": "Remove the Windows 32-bit x86 Port",
+                "id": 479,
+                "jepUrl": "https://openjdk.org/jeps/479"
+            },
+            {
+                "featureName": "Ahead-of-Time Class Loading & Linking",
+                "id": 483,
+                "jepUrl": "https://openjdk.org/jeps/483"
+            },
+            {
+                "featureName": "Class-File API",
+                "id": 484,
+                "jepUrl": "https://openjdk.org/jeps/484"
+            },
+            {
+                "featureName": "Stream Gatherers",
+                "id": 485,
+                "jepUrl": "https://openjdk.org/jeps/485"
+            },
+            {
+                "featureName": "Permanently Disable the Security Manager",
+                "id": 486,
+                "jepUrl": "https://openjdk.org/jeps/486"
+            },
+            {
+                "featureName": "Scoped Values (Fourth Preview)",
+                "id": 487,
+                "jepUrl": "https://openjdk.org/jeps/487"
+            },
+            {
+                "featureName": "Primitive Types in Patterns, instanceof, and switch (Second Preview)",
+                "id": 488,
+                "jepUrl": "https://openjdk.org/jeps/488"
+            },
+            {
+                "featureName": "Vector API (Ninth Incubator)",
+                "id": 489,
+                "jepUrl": "https://openjdk.org/jeps/489"
+            },
+            {
+                "featureName": "ZGC: Remove the Non-Generational Mode",
+                "id": 490,
+                "jepUrl": "https://openjdk.org/jeps/490"
+            },
+            {
+                "featureName": "Synchronize Virtual Threads without Pinning",
+                "id": 491,
+                "jepUrl": "https://openjdk.org/jeps/491"
+            },
+            {
+                "featureName": "Flexible Constructor Bodies (Third Preview)",
+                "id": 492,
+                "jepUrl": "https://openjdk.org/jeps/492"
+            },
+            {
+                "featureName": "Linking Run-Time Images without JMODs",
+                "id": 493,
+                "jepUrl": "https://openjdk.org/jeps/493"
+            },
+            {
+                "featureName": "Module Import Declarations (Second Preview)",
+                "id": 494,
+                "jepUrl": "https://openjdk.org/jeps/494"
+            },
+            {
+                "featureName": "Simple Source Files and Instance Main Methods (Fourth Preview)",
+                "id": 495,
+                "jepUrl": "https://openjdk.org/jeps/495"
+            },
+            {
+                "featureName": "Quantum-Resistant Module-Lattice-Based Key Encapsulation Mechanism",
+                "id": 496,
+                "jepUrl": "https://openjdk.org/jeps/496"
+            },
+            {
+                "featureName": "Quantum-Resistant Module-Lattice-Based Digital Signature Algorithm",
+                "id": 497,
+                "jepUrl": "https://openjdk.org/jeps/497"
+            },
+            {
+                "featureName": "Warn upon Use of Memory-Access Methods in sun.misc.Unsafe",
+                "id": 498,
+                "jepUrl": "https://openjdk.org/jeps/498"
+            },
+            {
+                "featureName": "Structured Concurrency (Fourth Preview)",
+                "id": 499,
+                "jepUrl": "https://openjdk.org/jeps/499"
+            },
+            {
+                "featureName": "Deprecate the 32-bit x86 Port for Removal",
+                "id": 501,
+                "jepUrl": "https://openjdk.org/jeps/501"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/24/"
+    },
+    {
+        "id": 23,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Primitive Types in Patterns, instanceof, and switch (Preview)",
+                "id": 455,
+                "jepUrl": "https://openjdk.org/jeps/455"
+            },
+            {
+                "featureName": "Class-File API (Second Preview)",
+                "id": 466,
+                "jepUrl": "https://openjdk.org/jeps/466"
+            },
+            {
+                "featureName": "Markdown Documentation Comments",
+                "id": 467,
+                "jepUrl": "https://openjdk.org/jeps/467"
+            },
+            {
+                "featureName": "Vector API (Eighth Incubator)",
+                "id": 469,
+                "jepUrl": "https://openjdk.org/jeps/469"
+            },
+            {
+                "featureName": "Stream Gatherers (Second Preview)",
+                "id": 473,
+                "jepUrl": "https://openjdk.org/jeps/473"
+            },
+            {
+                "featureName": "Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal",
+                "id": 471,
+                "jepUrl": "https://openjdk.org/jeps/471"
+            },
+            {
+                "featureName": "ZGC: Generational Mode by Default",
+                "id": 474,
+                "jepUrl": "https://openjdk.org/jeps/474"
+            },
+            {
+                "featureName": "Module Import Declarations (Preview)",
+                "id": 476,
+                "jepUrl": "https://openjdk.org/jeps/476"
+            },
+            {
+                "featureName": "Implicitly Declared Classes and Instance Main Methods (Third Preview)",
+                "id": 477,
+                "jepUrl": "https://openjdk.org/jeps/477"
+            },
+            {
+                "featureName": "Structured Concurrency (Third Preview)",
+                "id": 480,
+                "jepUrl": "https://openjdk.org/jeps/480"
+            },
+            {
+                "featureName": "Scoped Values (Third Preview)",
+                "id": 481,
+                "jepUrl": "https://openjdk.org/jeps/481"
+            },
+            {
+                "featureName": "Flexible Constructor Bodies (Second Preview)",
+                "id": 482,
+                "jepUrl": "https://openjdk.org/jeps/482"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/23/"
+    },
+    {
+        "id": 22,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Region Pinning for G1",
+                "id": 423,
+                "jepUrl": "https://openjdk.org/jeps/423"
+            },
+            {
+                "featureName": "Statements before super(...) (Preview)",
+                "id": 447,
+                "jepUrl": "https://openjdk.org/jeps/447"
+            },
+            {
+                "featureName": "Foreign Function & Memory API",
+                "id": 454,
+                "jepUrl": "https://openjdk.org/jeps/454"
+            },
+            {
+                "featureName": "Unnamed Variables & Patterns",
+                "id": 456,
+                "jepUrl": "https://openjdk.org/jeps/456"
+            },
+            {
+                "featureName": "Class-File API (Preview)",
+                "id": 457,
+                "jepUrl": "https://openjdk.org/jeps/457"
+            },
+            {
+                "featureName": "Launch Multi-File Source-Code Programs",
+                "id": 458,
+                "jepUrl": "https://openjdk.org/jeps/458"
+            },
+            {
+                "featureName": "String Templates (Second Preview)",
+                "id": 459,
+                "jepUrl": "https://openjdk.org/jeps/459"
+            },
+            {
+                "featureName": "Vector API (Seventh Incubator)",
+                "id": 460,
+                "jepUrl": "https://openjdk.org/jeps/460"
+            },
+            {
+                "featureName": "Stream Gatherers (Preview)",
+                "id": 461,
+                "jepUrl": "https://openjdk.org/jeps/461"
+            },
+            {
+                "featureName": "Structured Concurrency (Second Preview)",
+                "id": 462,
+                "jepUrl": "https://openjdk.org/jeps/462"
+            },
+            {
+                "featureName": "Implicitly Declared Classes and Instance Main Methods (Second Preview)",
+                "id": 463,
+                "jepUrl": "https://openjdk.org/jeps/463"
+            },
+            {
+                "featureName": "Scoped Values (Second Preview)",
+                "id": 464,
+                "jepUrl": "https://openjdk.org/jeps/464"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/22/"
+    },
+    {
+        "id": 21,
+        "javaVersionFeatures": [
+            {
+                "featureName": "String Templates (Preview)",
+                "id": 430,
+                "jepUrl": "https://openjdk.org/jeps/430"
+            },
+            {
+                "featureName": "Sequenced Collections",
+                "id": 431,
+                "jepUrl": "https://openjdk.org/jeps/431"
+            },
+            {
+                "featureName": "Generational ZGC",
+                "id": 439,
+                "jepUrl": "https://openjdk.org/jeps/439"
+            },
+            {
+                "featureName": "Record Patterns",
+                "id": 440,
+                "jepUrl": "https://openjdk.org/jeps/440"
+            },
+            {
+                "featureName": "Pattern Matching for switch",
+                "id": 441,
+                "jepUrl": "https://openjdk.org/jeps/441"
+            },
+            {
+                "featureName": "Foreign Function & Memory API (Third Preview)",
+                "id": 442,
+                "jepUrl": "https://openjdk.org/jeps/442"
+            },
+            {
+                "featureName": "Unnamed Patterns and Variables (Preview)",
+                "id": 443,
+                "jepUrl": "https://openjdk.org/jeps/443"
+            },
+            {
+                "featureName": "Virtual Threads",
+                "id": 444,
+                "jepUrl": "https://openjdk.org/jeps/444"
+            },
+            {
+                "featureName": "Unnamed Classes and Instance Main Methods (Preview)",
+                "id": 445,
+                "jepUrl": "https://openjdk.org/jeps/445"
+            },
+            {
+                "featureName": "Scoped Values (Preview)",
+                "id": 446,
+                "jepUrl": "https://openjdk.org/jeps/446"
+            },
+            {
+                "featureName": "Vector API (Sixth Incubator)",
+                "id": 448,
+                "jepUrl": "https://openjdk.org/jeps/448"
+            },
+            {
+                "featureName": "Deprecate the Windows 32-bit x86 Port for Removal",
+                "id": 449,
+                "jepUrl": "https://openjdk.org/jeps/449"
+            },
+            {
+                "featureName": "Prepare to Disallow the Dynamic Loading of Agents",
+                "id": 451,
+                "jepUrl": "https://openjdk.org/jeps/451"
+            },
+            {
+                "featureName": "Key Encapsulation Mechanism API",
+                "id": 452,
+                "jepUrl": "https://openjdk.org/jeps/452"
+            },
+            {
+                "featureName": "Structured Concurrency (Preview)",
+                "id": 453,
+                "jepUrl": "https://openjdk.org/jeps/453"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/21/"
+    },
+    {
+        "id": 20,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Scoped Values (Incubator)",
+                "id": 429,
+                "jepUrl": "https://openjdk.org/jeps/429"
+            },
+            {
+                "featureName": "Record Patterns (Second Preview)",
+                "id": 432,
+                "jepUrl": "https://openjdk.org/jeps/432"
+            },
+            {
+                "featureName": "Pattern Matching for switch (Fourth Preview)",
+                "id": 433,
+                "jepUrl": "https://openjdk.org/jeps/433"
+            },
+            {
+                "featureName": "Foreign Function & Memory API (Second Preview)",
+                "id": 434,
+                "jepUrl": "https://openjdk.org/jeps/434"
+            },
+            {
+                "featureName": "Virtual Threads (Second Preview)",
+                "id": 436,
+                "jepUrl": "https://openjdk.org/jeps/436"
+            },
+            {
+                "featureName": "Structured Concurrency (Second Incubator)",
+                "id": 437,
+                "jepUrl": "https://openjdk.org/jeps/437"
+            },
+            {
+                "featureName": "Vector API (Fifth Incubator)",
+                "id": 438,
+                "jepUrl": "https://openjdk.org/jeps/438"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/20/"
+    },
+    {
+        "id": 19,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Record Patterns (Preview)",
+                "id": 405,
+                "jepUrl": "https://openjdk.org/jeps/405"
+            },
+            {
+                "featureName": "Linux/RISC-V Port",
+                "id": 422,
+                "jepUrl": "https://openjdk.org/jeps/422"
+            },
+            {
+                "featureName": "Foreign Function & Memory API (Preview)",
+                "id": 424,
+                "jepUrl": "https://openjdk.org/jeps/424"
+            },
+            {
+                "featureName": "Virtual Threads (Preview)",
+                "id": 425,
+                "jepUrl": "https://openjdk.org/jeps/425"
+            },
+            {
+                "featureName": "Vector API (Fourth Incubator)",
+                "id": 426,
+                "jepUrl": "https://openjdk.org/jeps/426"
+            },
+            {
+                "featureName": "Pattern Matching for switch (Third Preview)",
+                "id": 427,
+                "jepUrl": "https://openjdk.org/jeps/427"
+            },
+            {
+                "featureName": "Structured Concurrency (Incubator)",
+                "id": 428,
+                "jepUrl": "https://openjdk.org/jeps/428"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/19/"
+    },
+    {
+        "id": 18,
+        "javaVersionFeatures": [
+            {
+                "featureName": "UTF-8 by Default",
+                "id": 400,
+                "jepUrl": "https://openjdk.org/jeps/400"
+            },
+            {
+                "featureName": "Simple Web Server",
+                "id": 408,
+                "jepUrl": "https://openjdk.org/jeps/408"
+            },
+            {
+                "featureName": "Code Snippets in Java API Documentation",
+                "id": 413,
+                "jepUrl": "https://openjdk.org/jeps/413"
+            },
+            {
+                "featureName": "Reimplement Core Reflection with Method Handles",
+                "id": 416,
+                "jepUrl": "https://openjdk.org/jeps/416"
+            },
+            {
+                "featureName": "Vector API (Third Incubator)",
+                "id": 417,
+                "jepUrl": "https://openjdk.org/jeps/417"
+            },
+            {
+                "featureName": "Internet-Address Resolution SPI",
+                "id": 418,
+                "jepUrl": "https://openjdk.org/jeps/418"
+            },
+            {
+                "featureName": "Foreign Function & Memory API (Second Incubator)",
+                "id": 419,
+                "jepUrl": "https://openjdk.org/jeps/419"
+            },
+            {
+                "featureName": "Pattern Matching for switch (Second Preview)",
+                "id": 420,
+                "jepUrl": "https://openjdk.org/jeps/420"
+            },
+            {
+                "featureName": "Deprecate Finalization for Removal",
+                "id": 421,
+                "jepUrl": "https://openjdk.org/jeps/421"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/18/"
+    },
+    {
+        "id": 17,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Restore Always-Strict Floating-Point Semantics",
+                "id": 306,
+                "jepUrl": "https://openjdk.org/jeps/306"
+            },
+            {
+                "featureName": "Enhanced Pseudo-Random Number Generators",
+                "id": 356,
+                "jepUrl": "https://openjdk.org/jeps/356"
+            },
+            {
+                "featureName": "New macOS Rendering Pipeline",
+                "id": 382,
+                "jepUrl": "https://openjdk.org/jeps/382"
+            },
+            {
+                "featureName": "macOS/AArch64 Port",
+                "id": 391,
+                "jepUrl": "https://openjdk.org/jeps/391"
+            },
+            {
+                "featureName": "Deprecate the Applet API for Removal",
+                "id": 398,
+                "jepUrl": "https://openjdk.org/jeps/398"
+            },
+            {
+                "featureName": "Strongly Encapsulate JDK Internals",
+                "id": 403,
+                "jepUrl": "https://openjdk.org/jeps/403"
+            },
+            {
+                "featureName": "Pattern Matching for switch (Preview)",
+                "id": 406,
+                "jepUrl": "https://openjdk.org/jeps/406"
+            },
+            {
+                "featureName": "Remove RMI Activation",
+                "id": 407,
+                "jepUrl": "https://openjdk.org/jeps/407"
+            },
+            {
+                "featureName": "Sealed Classes",
+                "id": 409,
+                "jepUrl": "https://openjdk.org/jeps/409"
+            },
+            {
+                "featureName": "Remove the Experimental AOT and JIT Compiler",
+                "id": 410,
+                "jepUrl": "https://openjdk.org/jeps/410"
+            },
+            {
+                "featureName": "Deprecate the Security Manager for Removal",
+                "id": 411,
+                "jepUrl": "https://openjdk.org/jeps/411"
+            },
+            {
+                "featureName": "Foreign Function & Memory API (Incubator)",
+                "id": 412,
+                "jepUrl": "https://openjdk.org/jeps/412"
+            },
+            {
+                "featureName": "Vector API (Second Incubator)",
+                "id": 414,
+                "jepUrl": "https://openjdk.org/jeps/414"
+            },
+            {
+                "featureName": "Context-Specific Deserialization Filters",
+                "id": 415,
+                "jepUrl": "https://openjdk.org/jeps/415"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/17/"
+    },
+    {
+        "id": 16,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Vector API (Incubator)",
+                "id": 338,
+                "jepUrl": "https://openjdk.org/jeps/338"
+            },
+            {
+                "featureName": "Enable C++14 Language Features",
+                "id": 347,
+                "jepUrl": "https://openjdk.org/jeps/347"
+            },
+            {
+                "featureName": "Migrate from Mercurial to Git",
+                "id": 357,
+                "jepUrl": "https://openjdk.org/jeps/357"
+            },
+            {
+                "featureName": "Migrate to GitHub",
+                "id": 369,
+                "jepUrl": "https://openjdk.org/jeps/369"
+            },
+            {
+                "featureName": "ZGC: Concurrent Thread-Stack Processing",
+                "id": 376,
+                "jepUrl": "https://openjdk.org/jeps/376"
+            },
+            {
+                "featureName": "Unix-Domain Socket Channels",
+                "id": 380,
+                "jepUrl": "https://openjdk.org/jeps/380"
+            },
+            {
+                "featureName": "Alpine Linux Port",
+                "id": 386,
+                "jepUrl": "https://openjdk.org/jeps/386"
+            },
+            {
+                "featureName": "Elastic Metaspace",
+                "id": 387,
+                "jepUrl": "https://openjdk.org/jeps/387"
+            },
+            {
+                "featureName": "Windows/AArch64 Port",
+                "id": 388,
+                "jepUrl": "https://openjdk.org/jeps/388"
+            },
+            {
+                "featureName": "Foreign Linker API (Incubator)",
+                "id": 389,
+                "jepUrl": "https://openjdk.org/jeps/389"
+            },
+            {
+                "featureName": "Warnings for Value-Based Classes",
+                "id": 390,
+                "jepUrl": "https://openjdk.org/jeps/390"
+            },
+            {
+                "featureName": "Packaging Tool",
+                "id": 392,
+                "jepUrl": "https://openjdk.org/jeps/392"
+            },
+            {
+                "featureName": "Foreign-Memory Access API (Third Incubator)",
+                "id": 393,
+                "jepUrl": "https://openjdk.org/jeps/393"
+            },
+            {
+                "featureName": "Pattern Matching for instanceof",
+                "id": 394,
+                "jepUrl": "https://openjdk.org/jeps/394"
+            },
+            {
+                "featureName": "Records",
+                "id": 395,
+                "jepUrl": "https://openjdk.org/jeps/395"
+            },
+            {
+                "featureName": "Strongly Encapsulate JDK Internals by Default",
+                "id": 396,
+                "jepUrl": "https://openjdk.org/jeps/396"
+            },
+            {
+                "featureName": "Sealed Classes (Second Preview)",
+                "id": 397,
+                "jepUrl": "https://openjdk.org/jeps/397"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/16/"
+    },
+    {
+        "id": 15,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Edwards-Curve Digital Signature Algorithm (EdDSA)",
+                "id": 339,
+                "jepUrl": "https://openjdk.org/jeps/339"
+            },
+            {
+                "featureName": "Sealed Classes (Preview)",
+                "id": 360,
+                "jepUrl": "https://openjdk.org/jeps/360"
+            },
+            {
+                "featureName": "Hidden Classes",
+                "id": 371,
+                "jepUrl": "https://openjdk.org/jeps/371"
+            },
+            {
+                "featureName": "Remove the Nashorn JavaScript Engine",
+                "id": 372,
+                "jepUrl": "https://openjdk.org/jeps/372"
+            },
+            {
+                "featureName": "Reimplement the Legacy DatagramSocket API",
+                "id": 373,
+                "jepUrl": "https://openjdk.org/jeps/373"
+            },
+            {
+                "featureName": "Disable and Deprecate Biased Locking",
+                "id": 374,
+                "jepUrl": "https://openjdk.org/jeps/374"
+            },
+            {
+                "featureName": "Pattern Matching for instanceof (Second Preview)",
+                "id": 375,
+                "jepUrl": "https://openjdk.org/jeps/375"
+            },
+            {
+                "featureName": "ZGC: A Scalable Low-Latency Garbage Collector",
+                "id": 377,
+                "jepUrl": "https://openjdk.org/jeps/377"
+            },
+            {
+                "featureName": "Text Blocks",
+                "id": 378,
+                "jepUrl": "https://openjdk.org/jeps/378"
+            },
+            {
+                "featureName": "Shenandoah: A Low-Pause-Time Garbage Collector",
+                "id": 379,
+                "jepUrl": "https://openjdk.org/jeps/379"
+            },
+            {
+                "featureName": "Remove the Solaris and SPARC Ports",
+                "id": 381,
+                "jepUrl": "https://openjdk.org/jeps/381"
+            },
+            {
+                "featureName": "Foreign-Memory Access API (Second Incubator)",
+                "id": 383,
+                "jepUrl": "https://openjdk.org/jeps/383"
+            },
+            {
+                "featureName": "Records (Second Preview)",
+                "id": 384,
+                "jepUrl": "https://openjdk.org/jeps/384"
+            },
+            {
+                "featureName": "Deprecate RMI Activation for Removal",
+                "id": 385,
+                "jepUrl": "https://openjdk.org/jeps/385"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/15/"
+    },
+    {
+        "id": 14,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Pattern Matching for instanceof (Preview)",
+                "id": 305,
+                "jepUrl": "https://openjdk.org/jeps/305"
+            },
+            {
+                "featureName": "Packaging Tool (Incubator)",
+                "id": 343,
+                "jepUrl": "https://openjdk.org/jeps/343"
+            },
+            {
+                "featureName": "NUMA-Aware Memory Allocation for G1",
+                "id": 345,
+                "jepUrl": "https://openjdk.org/jeps/345"
+            },
+            {
+                "featureName": "JFR Event Streaming",
+                "id": 349,
+                "jepUrl": "https://openjdk.org/jeps/349"
+            },
+            {
+                "featureName": "Non-Volatile Mapped Byte Buffers",
+                "id": 352,
+                "jepUrl": "https://openjdk.org/jeps/352"
+            },
+            {
+                "featureName": "Helpful NullPointerExceptions",
+                "id": 358,
+                "jepUrl": "https://openjdk.org/jeps/358"
+            },
+            {
+                "featureName": "Records (Preview)",
+                "id": 359,
+                "jepUrl": "https://openjdk.org/jeps/359"
+            },
+            {
+                "featureName": "Switch Expressions (Standard)",
+                "id": 361,
+                "jepUrl": "https://openjdk.org/jeps/361"
+            },
+            {
+                "featureName": "Deprecate the Solaris and SPARC Ports",
+                "id": 362,
+                "jepUrl": "https://openjdk.org/jeps/362"
+            },
+            {
+                "featureName": "Remove the Concurrent Mark Sweep (CMS) Garbage Collector",
+                "id": 363,
+                "jepUrl": "https://openjdk.org/jeps/363"
+            },
+            {
+                "featureName": "ZGC on macOS",
+                "id": 364,
+                "jepUrl": "https://openjdk.org/jeps/364"
+            },
+            {
+                "featureName": "ZGC on Windows",
+                "id": 365,
+                "jepUrl": "https://openjdk.org/jeps/365"
+            },
+            {
+                "featureName": "Deprecate the ParallelScavenge + SerialOld GC Combination",
+                "id": 366,
+                "jepUrl": "https://openjdk.org/jeps/366"
+            },
+            {
+                "featureName": "Remove the Pack200 Tools and API",
+                "id": 367,
+                "jepUrl": "https://openjdk.org/jeps/367"
+            },
+            {
+                "featureName": "Text Blocks (Second Preview)",
+                "id": 368,
+                "jepUrl": "https://openjdk.org/jeps/368"
+            },
+            {
+                "featureName": "Foreign-Memory Access API (Incubator)",
+                "id": 370,
+                "jepUrl": "https://openjdk.org/jeps/370"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/14/"
+    },
+    {
+        "id": 13,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Dynamic CDS Archives",
+                "id": 350,
+                "jepUrl": "https://openjdk.org/jeps/350"
+            },
+            {
+                "featureName": "ZGC: Uncommit Unused Memory",
+                "id": 351,
+                "jepUrl": "https://openjdk.org/jeps/351"
+            },
+            {
+                "featureName": "Reimplement the Legacy Socket API",
+                "id": 353,
+                "jepUrl": "https://openjdk.org/jeps/353"
+            },
+            {
+                "featureName": "Switch Expressions (Preview)",
+                "id": 354,
+                "jepUrl": "https://openjdk.org/jeps/354"
+            },
+            {
+                "featureName": "Text Blocks (Preview)",
+                "id": 355,
+                "jepUrl": "https://openjdk.org/jeps/355"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/13/"
+    },
+    {
+        "id": 12,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)",
+                "id": 189,
+                "jepUrl": "https://openjdk.org/jeps/189"
+            },
+            {
+                "featureName": "Microbenchmark Suite",
+                "id": 230,
+                "jepUrl": "https://openjdk.org/jeps/230"
+            },
+            {
+                "featureName": "Switch Expressions (Preview)",
+                "id": 325,
+                "jepUrl": "https://openjdk.org/jeps/325"
+            },
+            {
+                "featureName": "JVM Constants API",
+                "id": 334,
+                "jepUrl": "https://openjdk.org/jeps/334"
+            },
+            {
+                "featureName": "One AArch64 Port, Not Two",
+                "id": 340,
+                "jepUrl": "https://openjdk.org/jeps/340"
+            },
+            {
+                "featureName": "Default CDS Archives",
+                "id": 341,
+                "jepUrl": "https://openjdk.org/jeps/341"
+            },
+            {
+                "featureName": "Abortable Mixed Collections for G1",
+                "id": 344,
+                "jepUrl": "https://openjdk.org/jeps/344"
+            },
+            {
+                "featureName": "Promptly Return Unused Committed Memory from G1",
+                "id": 346,
+                "jepUrl": "https://openjdk.org/jeps/346"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/12/"
+    },
+    {
+        "id": 11,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Nest-Based Access Control",
+                "id": 181,
+                "jepUrl": "https://openjdk.org/jeps/181"
+            },
+            {
+                "featureName": "Dynamic Class-File Constants",
+                "id": 309,
+                "jepUrl": "https://openjdk.org/jeps/309"
+            },
+            {
+                "featureName": "Improve Aarch64 Intrinsics",
+                "id": 315,
+                "jepUrl": "https://openjdk.org/jeps/315"
+            },
+            {
+                "featureName": "Epsilon",
+                "id": 318,
+                "jepUrl": "https://openjdk.org/jeps/318"
+            },
+            {
+                "featureName": "Remove the Java EE and CORBA Modules",
+                "id": 320,
+                "jepUrl": "https://openjdk.org/jeps/320"
+            },
+            {
+                "featureName": "HTTP Client (Standard)",
+                "id": 321,
+                "jepUrl": "https://openjdk.org/jeps/321"
+            },
+            {
+                "featureName": "Local-Variable Syntax for Lambda Parameters",
+                "id": 323,
+                "jepUrl": "https://openjdk.org/jeps/323"
+            },
+            {
+                "featureName": "Key Agreement with Curve25519 and Curve448",
+                "id": 324,
+                "jepUrl": "https://openjdk.org/jeps/324"
+            },
+            {
+                "featureName": "Unicode 10",
+                "id": 327,
+                "jepUrl": "https://openjdk.org/jeps/327"
+            },
+            {
+                "featureName": "Flight Recorder",
+                "id": 328,
+                "jepUrl": "https://openjdk.org/jeps/328"
+            },
+            {
+                "featureName": "ChaCha20 and Poly1305 Cryptographic Algorithms",
+                "id": 329,
+                "jepUrl": "https://openjdk.org/jeps/329"
+            },
+            {
+                "featureName": "Launch Single-File Source-Code Programs",
+                "id": 330,
+                "jepUrl": "https://openjdk.org/jeps/330"
+            },
+            {
+                "featureName": "Low-Overhead Heap Profiling",
+                "id": 331,
+                "jepUrl": "https://openjdk.org/jeps/331"
+            },
+            {
+                "featureName": "Transport Layer Security (TLS) 1.3",
+                "id": 332,
+                "jepUrl": "https://openjdk.org/jeps/332"
+            },
+            {
+                "featureName": "ZGC",
+                "id": 333,
+                "jepUrl": "https://openjdk.org/jeps/333"
+            },
+            {
+                "featureName": "Deprecate the Nashorn JavaScript Engine",
+                "id": 335,
+                "jepUrl": "https://openjdk.org/jeps/335"
+            },
+            {
+                "featureName": "Deprecate the Pack200 Tools and API",
+                "id": 336,
+                "jepUrl": "https://openjdk.org/jeps/336"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/11/"
+    },
+    {
+        "id": 10,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Local-Variable Type Inference",
+                "id": 286,
+                "jepUrl": "https://openjdk.org/jeps/286"
+            },
+            {
+                "featureName": "Consolidate the JDK Forest into a Single Repository",
+                "id": 296,
+                "jepUrl": "https://openjdk.org/jeps/296"
+            },
+            {
+                "featureName": "Garbage-Collector Interface",
+                "id": 304,
+                "jepUrl": "https://openjdk.org/jeps/304"
+            },
+            {
+                "featureName": "Parallel Full GC for G1",
+                "id": 307,
+                "jepUrl": "https://openjdk.org/jeps/307"
+            },
+            {
+                "featureName": "Application Class-Data Sharing",
+                "id": 310,
+                "jepUrl": "https://openjdk.org/jeps/310"
+            },
+            {
+                "featureName": "Thread-Local Handshakes",
+                "id": 312,
+                "jepUrl": "https://openjdk.org/jeps/312"
+            },
+            {
+                "featureName": "Remove the Native-Header Generation Tool (javah)",
+                "id": 313,
+                "jepUrl": "https://openjdk.org/jeps/313"
+            },
+            {
+                "featureName": "Additional Unicode Language-Tag Extensions",
+                "id": 314,
+                "jepUrl": "https://openjdk.org/jeps/314"
+            },
+            {
+                "featureName": "Heap Allocation on Alternative Memory Devices",
+                "id": 316,
+                "jepUrl": "https://openjdk.org/jeps/316"
+            },
+            {
+                "featureName": "Experimental Java-Based JIT Compiler",
+                "id": 317,
+                "jepUrl": "https://openjdk.org/jeps/317"
+            },
+            {
+                "featureName": "Root Certificates",
+                "id": 319,
+                "jepUrl": "https://openjdk.org/jeps/319"
+            },
+            {
+                "featureName": "Time-Based Release Versioning",
+                "id": 322,
+                "jepUrl": "https://openjdk.org/jeps/322"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/10/"
+    },
+    {
+        "id": 9,
+        "javaVersionFeatures": [
+            {
+                "featureName": "Process API Updates",
+                "id": 102,
+                "jepUrl": "https://openjdk.org/jeps/102"
+            },
+            {
+                "featureName": "HTTP 2 Client",
+                "id": 110,
+                "jepUrl": "https://openjdk.org/jeps/110"
+            },
+            {
+                "featureName": "Improve Contended Locking",
+                "id": 143,
+                "jepUrl": "https://openjdk.org/jeps/143"
+            },
+            {
+                "featureName": "Unified JVM Logging",
+                "id": 158,
+                "jepUrl": "https://openjdk.org/jeps/158"
+            },
+            {
+                "featureName": "Compiler Control",
+                "id": 165,
+                "jepUrl": "https://openjdk.org/jeps/165"
+            },
+            {
+                "featureName": "Variable Handles",
+                "id": 193,
+                "jepUrl": "https://openjdk.org/jeps/193"
+            },
+            {
+                "featureName": "Segmented Code Cache",
+                "id": 197,
+                "jepUrl": "https://openjdk.org/jeps/197"
+            },
+            {
+                "featureName": "Smart Java Compilation, Phase Two",
+                "id": 199,
+                "jepUrl": "https://openjdk.org/jeps/199"
+            },
+            {
+                "featureName": "The Modular JDK",
+                "id": 200,
+                "jepUrl": "https://openjdk.org/jeps/200"
+            },
+            {
+                "featureName": "Modular Source Code",
+                "id": 201,
+                "jepUrl": "https://openjdk.org/jeps/201"
+            },
+            {
+                "featureName": "Elide Deprecation Warnings on Import Statements",
+                "id": 211,
+                "jepUrl": "https://openjdk.org/jeps/211"
+            },
+            {
+                "featureName": "Resolve Lint and Doclint Warnings",
+                "id": 212,
+                "jepUrl": "https://openjdk.org/jeps/212"
+            },
+            {
+                "featureName": "Milling Project Coin",
+                "id": 213,
+                "jepUrl": "https://openjdk.org/jeps/213"
+            },
+            {
+                "featureName": "Remove GC Combinations Deprecated in JDK 8",
+                "id": 214,
+                "jepUrl": "https://openjdk.org/jeps/214"
+            },
+            {
+                "featureName": "Tiered Attribution for javac",
+                "id": 215,
+                "jepUrl": "https://openjdk.org/jeps/215"
+            },
+            {
+                "featureName": "Process Import Statements Correctly",
+                "id": 216,
+                "jepUrl": "https://openjdk.org/jeps/216"
+            },
+            {
+                "featureName": "Annotations Pipeline 2.0",
+                "id": 217,
+                "jepUrl": "https://openjdk.org/jeps/217"
+            },
+            {
+                "featureName": "Datagram Transport Layer Security (DTLS)",
+                "id": 219,
+                "jepUrl": "https://openjdk.org/jeps/219"
+            },
+            {
+                "featureName": "Modular Run-Time Images",
+                "id": 220,
+                "jepUrl": "https://openjdk.org/jeps/220"
+            },
+            {
+                "featureName": "Simplified Doclet API",
+                "id": 221,
+                "jepUrl": "https://openjdk.org/jeps/221"
+            },
+            {
+                "featureName": "jshell",
+                "id": 222,
+                "jepUrl": "https://openjdk.org/jeps/222"
+            },
+            {
+                "featureName": "New Version-String Scheme",
+                "id": 223,
+                "jepUrl": "https://openjdk.org/jeps/223"
+            },
+            {
+                "featureName": "HTML5 Javadoc",
+                "id": 224,
+                "jepUrl": "https://openjdk.org/jeps/224"
+            },
+            {
+                "featureName": "Javadoc Search",
+                "id": 225,
+                "jepUrl": "https://openjdk.org/jeps/225"
+            },
+            {
+                "featureName": "UTF-8 Property Files",
+                "id": 226,
+                "jepUrl": "https://openjdk.org/jeps/226"
+            },
+            {
+                "featureName": "Unicode 7.0",
+                "id": 227,
+                "jepUrl": "https://openjdk.org/jeps/227"
+            },
+            {
+                "featureName": "Add More Diagnostic Commands",
+                "id": 228,
+                "jepUrl": "https://openjdk.org/jeps/228"
+            },
+            {
+                "featureName": "Create PKCS12 Keystores by Default",
+                "id": 229,
+                "jepUrl": "https://openjdk.org/jeps/229"
+            },
+            {
+                "featureName": "Remove Launch-Time JRE Version Selection",
+                "id": 231,
+                "jepUrl": "https://openjdk.org/jeps/231"
+            },
+            {
+                "featureName": "Improve Secure Application Performance",
+                "id": 232,
+                "jepUrl": "https://openjdk.org/jeps/232"
+            },
+            {
+                "featureName": "Generate Run-Time Compiler Tests Automatically",
+                "id": 233,
+                "jepUrl": "https://openjdk.org/jeps/233"
+            },
+            {
+                "featureName": "Test Class-File Attributes Generated by javac",
+                "id": 235,
+                "jepUrl": "https://openjdk.org/jeps/235"
+            },
+            {
+                "featureName": "Parser API for Nashorn",
+                "id": 236,
+                "jepUrl": "https://openjdk.org/jeps/236"
+            },
+            {
+                "featureName": "Linux/AArch64 Port",
+                "id": 237,
+                "jepUrl": "https://openjdk.org/jeps/237"
+            },
+            {
+                "featureName": "Multi-Release JAR Files",
+                "id": 238,
+                "jepUrl": "https://openjdk.org/jeps/238"
+            },
+            {
+                "featureName": "Remove the JVM TI hprof Agent",
+                "id": 240,
+                "jepUrl": "https://openjdk.org/jeps/240"
+            },
+            {
+                "featureName": "Remove the jhat Tool",
+                "id": 241,
+                "jepUrl": "https://openjdk.org/jeps/241"
+            },
+            {
+                "featureName": "Java-Level JVM Compiler Interface",
+                "id": 243,
+                "jepUrl": "https://openjdk.org/jeps/243"
+            },
+            {
+                "featureName": "TLS Application-Layer Protocol Negotiation Extension",
+                "id": 244,
+                "jepUrl": "https://openjdk.org/jeps/244"
+            },
+            {
+                "featureName": "Validate JVM Command-Line Flag Arguments",
+                "id": 245,
+                "jepUrl": "https://openjdk.org/jeps/245"
+            },
+            {
+                "featureName": "Leverage CPU Instructions for GHASH and RSA",
+                "id": 246,
+                "jepUrl": "https://openjdk.org/jeps/246"
+            },
+            {
+                "featureName": "Compile for Older Platform Versions",
+                "id": 247,
+                "jepUrl": "https://openjdk.org/jeps/247"
+            },
+            {
+                "featureName": "Make G1 the Default Garbage Collector",
+                "id": 248,
+                "jepUrl": "https://openjdk.org/jeps/248"
+            },
+            {
+                "featureName": "OCSP Stapling for TLS",
+                "id": 249,
+                "jepUrl": "https://openjdk.org/jeps/249"
+            },
+            {
+                "featureName": "Store Interned Strings in CDS Archives",
+                "id": 250,
+                "jepUrl": "https://openjdk.org/jeps/250"
+            },
+            {
+                "featureName": "Multi-Resolution Images",
+                "id": 251,
+                "jepUrl": "https://openjdk.org/jeps/251"
+            },
+            {
+                "featureName": "Use CLDR Locale Data by Default",
+                "id": 252,
+                "jepUrl": "https://openjdk.org/jeps/252"
+            },
+            {
+                "featureName": "Prepare JavaFX UI Controls & CSS APIs for Modularization",
+                "id": 253,
+                "jepUrl": "https://openjdk.org/jeps/253"
+            },
+            {
+                "featureName": "Compact Strings",
+                "id": 254,
+                "jepUrl": "https://openjdk.org/jeps/254"
+            },
+            {
+                "featureName": "Merge Selected Xerces 2.11.0 Updates into JAXP",
+                "id": 255,
+                "jepUrl": "https://openjdk.org/jeps/255"
+            },
+            {
+                "featureName": "BeanInfo Annotations",
+                "id": 256,
+                "jepUrl": "https://openjdk.org/jeps/256"
+            },
+            {
+                "featureName": "Update JavaFX/Media to Newer Version of GStreamer",
+                "id": 257,
+                "jepUrl": "https://openjdk.org/jeps/257"
+            },
+            {
+                "featureName": "HarfBuzz Font-Layout Engine",
+                "id": 258,
+                "jepUrl": "https://openjdk.org/jeps/258"
+            },
+            {
+                "featureName": "Stack-Walking API",
+                "id": 259,
+                "jepUrl": "https://openjdk.org/jeps/259"
+            },
+            {
+                "featureName": "Encapsulate Most Internal APIs",
+                "id": 260,
+                "jepUrl": "https://openjdk.org/jeps/260"
+            },
+            {
+                "featureName": "Module System",
+                "id": 261,
+                "jepUrl": "https://openjdk.org/jeps/261"
+            },
+            {
+                "featureName": "TIFF Image I/O",
+                "id": 262,
+                "jepUrl": "https://openjdk.org/jeps/262"
+            },
+            {
+                "featureName": "HiDPI Graphics on Windows and Linux",
+                "id": 263,
+                "jepUrl": "https://openjdk.org/jeps/263"
+            },
+            {
+                "featureName": "Platform Logging API and Service",
+                "id": 264,
+                "jepUrl": "https://openjdk.org/jeps/264"
+            },
+            {
+                "featureName": "Marlin Graphics Renderer",
+                "id": 265,
+                "jepUrl": "https://openjdk.org/jeps/265"
+            },
+            {
+                "featureName": "More Concurrency Updates",
+                "id": 266,
+                "jepUrl": "https://openjdk.org/jeps/266"
+            },
+            {
+                "featureName": "Unicode 8.0",
+                "id": 267,
+                "jepUrl": "https://openjdk.org/jeps/267"
+            },
+            {
+                "featureName": "XML Catalogs",
+                "id": 268,
+                "jepUrl": "https://openjdk.org/jeps/268"
+            },
+            {
+                "featureName": "Convenience Factory Methods for Collections",
+                "id": 269,
+                "jepUrl": "https://openjdk.org/jeps/269"
+            },
+            {
+                "featureName": "Reserved Stack Areas for Critical Sections",
+                "id": 270,
+                "jepUrl": "https://openjdk.org/jeps/270"
+            },
+            {
+                "featureName": "Unified GC Logging",
+                "id": 271,
+                "jepUrl": "https://openjdk.org/jeps/271"
+            },
+            {
+                "featureName": "Platform-Specific Desktop Features",
+                "id": 272,
+                "jepUrl": "https://openjdk.org/jeps/272"
+            },
+            {
+                "featureName": "DRBG-Based SecureRandom Implementations",
+                "id": 273,
+                "jepUrl": "https://openjdk.org/jeps/273"
+            },
+            {
+                "featureName": "Enhanced Method Handles",
+                "id": 274,
+                "jepUrl": "https://openjdk.org/jeps/274"
+            },
+            {
+                "featureName": "Modular Java Application Packaging",
+                "id": 275,
+                "jepUrl": "https://openjdk.org/jeps/275"
+            },
+            {
+                "featureName": "Dynamic Linking of Language-Defined Object Models",
+                "id": 276,
+                "jepUrl": "https://openjdk.org/jeps/276"
+            },
+            {
+                "featureName": "Enhanced Deprecation",
+                "id": 277,
+                "jepUrl": "https://openjdk.org/jeps/277"
+            },
+            {
+                "featureName": "Additional Tests for Humongous Objects in G1",
+                "id": 278,
+                "jepUrl": "https://openjdk.org/jeps/278"
+            },
+            {
+                "featureName": "Improve Test-Failure Troubleshooting",
+                "id": 279,
+                "jepUrl": "https://openjdk.org/jeps/279"
+            },
+            {
+                "featureName": "Indify String Concatenation",
+                "id": 280,
+                "jepUrl": "https://openjdk.org/jeps/280"
+            },
+            {
+                "featureName": "HotSpot C++ Unit-Test Framework",
+                "id": 281,
+                "jepUrl": "https://openjdk.org/jeps/281"
+            },
+            {
+                "featureName": "jlink",
+                "id": 282,
+                "jepUrl": "https://openjdk.org/jeps/282"
+            },
+            {
+                "featureName": "Enable GTK 3 on Linux",
+                "id": 283,
+                "jepUrl": "https://openjdk.org/jeps/283"
+            },
+            {
+                "featureName": "New HotSpot Build System",
+                "id": 284,
+                "jepUrl": "https://openjdk.org/jeps/284"
+            },
+            {
+                "featureName": "Spin-Wait Hints",
+                "id": 285,
+                "jepUrl": "https://openjdk.org/jeps/285"
+            },
+            {
+                "featureName": "SHA-3 Hash Algorithms",
+                "id": 287,
+                "jepUrl": "https://openjdk.org/jeps/287"
+            },
+            {
+                "featureName": "Disable SHA-1 Certificates",
+                "id": 288,
+                "jepUrl": "https://openjdk.org/jeps/288"
+            },
+            {
+                "featureName": "Deprecate the Applet API",
+                "id": 289,
+                "jepUrl": "https://openjdk.org/jeps/289"
+            },
+            {
+                "featureName": "Filter Incoming Serialization Data",
+                "id": 290,
+                "jepUrl": "https://openjdk.org/jeps/290"
+            },
+            {
+                "featureName": "Deprecate the Concurrent Mark Sweep (CMS) Garbage Collector",
+                "id": 291,
+                "jepUrl": "https://openjdk.org/jeps/291"
+            },
+            {
+                "featureName": "Implement Selected ECMAScript 6 Features in Nashorn",
+                "id": 292,
+                "jepUrl": "https://openjdk.org/jeps/292"
+            },
+            {
+                "featureName": "Linux/s390x Port",
+                "id": 294,
+                "jepUrl": "https://openjdk.org/jeps/294"
+            },
+            {
+                "featureName": "Ahead-of-Time Compilation",
+                "id": 295,
+                "jepUrl": "https://openjdk.org/jeps/295"
+            },
+            {
+                "featureName": "Unified arm32/arm64 Port",
+                "id": 297,
+                "jepUrl": "https://openjdk.org/jeps/297"
+            },
+            {
+                "featureName": "Remove Demos and Samples",
+                "id": 298,
+                "jepUrl": "https://openjdk.org/jeps/298"
+            },
+            {
+                "featureName": "Reorganize Documentation",
+                "id": 299,
+                "jepUrl": "https://openjdk.org/jeps/299"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk9/"
+    },
+    {
+        "id": 8,
+        "javaVersionFeatures": [
+            {
+                "featureName": "117 Remove the Annotation-Processing Tool (apt)",
+                "id": 117,
+                "jepUrl": "http://openjdk.java.net/jeps/117"
+            },
+            {
+                "featureName": "124 Enhance the Certificate Revocation-Checking API",
+                "id": 124,
+                "jepUrl": "http://openjdk.java.net/jeps/124"
+            },
+            {
+                "featureName": "130 SHA-224 Message Digests",
+                "id": 130,
+                "jepUrl": "http://openjdk.java.net/jeps/130"
+            },
+            {
+                "featureName": "131 PKCS#11 Crypto Provider for 64-bit Windows",
+                "id": 131,
+                "jepUrl": "http://openjdk.java.net/jeps/131"
+            },
+            {
+                "featureName": "112 Charset Implementation Improvements",
+                "id": 112,
+                "jepUrl": "http://openjdk.java.net/jeps/112"
+            },
+            {
+                "featureName": "129 NSA Suite B Cryptographic Algorithms",
+                "id": 129,
+                "jepUrl": "http://openjdk.java.net/jeps/129"
+            },
+            {
+                "featureName": "105 DocTree API",
+                "id": 105,
+                "jepUrl": "http://openjdk.java.net/jeps/105"
+            },
+            {
+                "featureName": "106 Add Javadoc to javax.tools",
+                "id": 106,
+                "jepUrl": "http://openjdk.java.net/jeps/106"
+            },
+            {
+                "featureName": "113 MS-SFU Kerberos 5 Extensions",
+                "id": 113,
+                "jepUrl": "http://openjdk.java.net/jeps/113"
+            },
+            {
+                "featureName": "114 TLS Server Name Indication (SNI) Extension",
+                "id": 114,
+                "jepUrl": "http://openjdk.java.net/jeps/114"
+            },
+            {
+                "featureName": "121 Stronger Algorithms for Password-Based Encryption",
+                "id": 121,
+                "jepUrl": "http://openjdk.java.net/jeps/121"
+            },
+            {
+                "featureName": "122 Remove the Permanent Generation",
+                "id": 122,
+                "jepUrl": "http://openjdk.java.net/jeps/122"
+            },
+            {
+                "featureName": "127 Improve Locale Data Packaging and Adopt Unicode CLDR Data",
+                "id": 127,
+                "jepUrl": "http://openjdk.java.net/jeps/127"
+            },
+            {
+                "featureName": "128 BCP 47 Locale Matching",
+                "id": 128,
+                "jepUrl": "http://openjdk.java.net/jeps/128"
+            },
+            {
+                "featureName": "133 Unicode 6.2",
+                "id": 133,
+                "jepUrl": "http://openjdk.java.net/jeps/133"
+            },
+            {
+                "featureName": "136 Enhanced Verification Errors",
+                "id": 136,
+                "jepUrl": "http://openjdk.java.net/jeps/136"
+            },
+            {
+                "featureName": "153 Launch JavaFX Applications",
+                "id": 153,
+                "jepUrl": "http://openjdk.java.net/jeps/153"
+            },
+            {
+                "featureName": "177 Optimize java.text.DecimalFormat.format",
+                "id": 177,
+                "jepUrl": "http://openjdk.java.net/jeps/177"
+            },
+            {
+                "featureName": "103 Parallel Array Sorting",
+                "id": 103,
+                "jepUrl": "http://openjdk.java.net/jeps/103"
+            },
+            {
+                "featureName": "135 Base64 Encoding & Decoding",
+                "id": 135,
+                "jepUrl": "http://openjdk.java.net/jeps/135"
+            },
+            {
+                "featureName": "138 Autoconf-Based Build System",
+                "id": 138,
+                "jepUrl": "http://openjdk.java.net/jeps/138"
+            },
+            {
+                "featureName": "139 Enhance javac to Improve Build Speed",
+                "id": 139,
+                "jepUrl": "http://openjdk.java.net/jeps/139"
+            },
+            {
+                "featureName": "142 Reduce Cache Contention on Specified Fields",
+                "id": 142,
+                "jepUrl": "http://openjdk.java.net/jeps/142"
+            },
+            {
+                "featureName": "147 Reduce Class Metadata Footprint",
+                "id": 147,
+                "jepUrl": "http://openjdk.java.net/jeps/147"
+            },
+            {
+                "featureName": "148 Small VM",
+                "id": 148,
+                "jepUrl": "http://openjdk.java.net/jeps/148"
+            },
+            {
+                "featureName": "149 Reduce Core-Library Memory Usage",
+                "id": 149,
+                "jepUrl": "http://openjdk.java.net/jeps/149"
+            },
+            {
+                "featureName": "150 Date & Time API",
+                "id": 150,
+                "jepUrl": "http://openjdk.java.net/jeps/150"
+            },
+            {
+                "featureName": "160 Lambda-Form Representation for Method Handles",
+                "id": 160,
+                "jepUrl": "http://openjdk.java.net/jeps/160"
+            },
+            {
+                "featureName": "164 Leverage CPU Instructions for AES Cryptography",
+                "id": 164,
+                "jepUrl": "http://openjdk.java.net/jeps/164"
+            },
+            {
+                "featureName": "166 Overhaul JKS-JCEKS-PKCS12 Keystores",
+                "id": 166,
+                "jepUrl": "http://openjdk.java.net/jeps/166"
+            },
+            {
+                "featureName": "170 JDBC 4.2",
+                "id": 170,
+                "jepUrl": "http://openjdk.java.net/jeps/170"
+            },
+            {
+                "featureName": "172 DocLint",
+                "id": 172,
+                "jepUrl": "http://openjdk.java.net/jeps/172"
+            },
+            {
+                "featureName": "173 Retire Some Rarely-Used GC Combinations",
+                "id": 173,
+                "jepUrl": "http://openjdk.java.net/jeps/173"
+            },
+            {
+                "featureName": "101 Generalized Target-Type Inference",
+                "id": 101,
+                "jepUrl": "http://openjdk.java.net/jeps/101"
+            },
+            {
+                "featureName": "104 Annotations on Java Types",
+                "id": 104,
+                "jepUrl": "http://openjdk.java.net/jeps/104"
+            },
+            {
+                "featureName": "107 Bulk Data Operations for Collections",
+                "id": 107,
+                "jepUrl": "http://openjdk.java.net/jeps/107"
+            },
+            {
+                "featureName": "109 Enhance Core Libraries with Lambda",
+                "id": 109,
+                "jepUrl": "http://openjdk.java.net/jeps/109"
+            },
+            {
+                "featureName": "115 AEAD CipherSuites",
+                "id": 115,
+                "jepUrl": "http://openjdk.java.net/jeps/115"
+            },
+            {
+                "featureName": "118 Access to Parameter Names at Runtime",
+                "id": 118,
+                "jepUrl": "http://openjdk.java.net/jeps/118"
+            },
+            {
+                "featureName": "119 javax.lang.model Implementation Backed by Core Reflection",
+                "id": 119,
+                "jepUrl": "http://openjdk.java.net/jeps/119"
+            },
+            {
+                "featureName": "120 Repeating Annotations",
+                "id": 120,
+                "jepUrl": "http://openjdk.java.net/jeps/120"
+            },
+            {
+                "featureName": "123 Configurable Secure Random-Number Generation",
+                "id": 123,
+                "jepUrl": "http://openjdk.java.net/jeps/123"
+            },
+            {
+                "featureName": "126 Lambda Expressions & Virtual Extension Methods",
+                "id": 126,
+                "jepUrl": "http://openjdk.java.net/jeps/126"
+            },
+            {
+                "featureName": "140 Limited doPrivileged",
+                "id": 140,
+                "jepUrl": "http://openjdk.java.net/jeps/140"
+            },
+            {
+                "featureName": "155 Concurrency Updates",
+                "id": 155,
+                "jepUrl": "http://openjdk.java.net/jeps/155"
+            },
+            {
+                "featureName": "161 Compact Profiles",
+                "id": 161,
+                "jepUrl": "http://openjdk.java.net/jeps/161"
+            },
+            {
+                "featureName": "162 Prepare for Modularization",
+                "id": 162,
+                "jepUrl": "http://openjdk.java.net/jeps/162"
+            },
+            {
+                "featureName": "171 Fence Intrinsics",
+                "id": 171,
+                "jepUrl": "http://openjdk.java.net/jeps/171"
+            },
+            {
+                "featureName": "174 Nashorn JavaScript Engine",
+                "id": 174,
+                "jepUrl": "http://openjdk.java.net/jeps/174"
+            },
+            {
+                "featureName": "176 Mechanical Checking of Caller-Sensitive Methods",
+                "id": 176,
+                "jepUrl": "http://openjdk.java.net/jeps/176"
+            },
+            {
+                "featureName": "178 Statically-Linked JNI Libraries",
+                "id": 178,
+                "jepUrl": "http://openjdk.java.net/jeps/178"
+            },
+            {
+                "featureName": "179 Document JDK API Support and Stability",
+                "id": 179,
+                "jepUrl": "http://openjdk.java.net/jeps/179"
+            },
+            {
+                "featureName": "180 Handle Frequent HashMap Collisions with Balanced Trees",
+                "id": 180,
+                "jepUrl": "http://openjdk.java.net/jeps/180"
+            },
+            {
+                "featureName": "184 HTTP URL Permissions",
+                "id": 184,
+                "jepUrl": "http://openjdk.java.net/jeps/184"
+            },
+            {
+                "featureName": "185 Restrict Fetching of External XML Resources",
+                "id": 185,
+                "jepUrl": "http://openjdk.java.net/jeps/185"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk8/milestones"
+    },
+    {
+        "id": 7,
+        "javaVersionFeatures": [
+            {
+                "featureName": "JSR 292: Support for dynamically-typed languages (InvokeDynamic)",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f353"
+            },
+            {
+                "featureName": "Strict class-file checking",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa535991"
+            },
+            {
+                "featureName": "JSR 334: Small language enhancements (Project Coin)",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f618"
+            },
+            {
+                "featureName": "Upgrade class-loader architecture",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f352"
+            },
+            {
+                "featureName": "Method to close a URLClassLoader",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f584"
+            },
+            {
+                "featureName": "Concurrency and collections updates (jsr166y)",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f515"
+            },
+            {
+                "featureName": "Unicode 6.0",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f497"
+            },
+            {
+                "featureName": "Locale enhancement",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa535895"
+            },
+            {
+                "featureName": "Separate user locale and user-interface locale",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa538265"
+            },
+            {
+                "featureName": "JSR 203: More new I/O APIs for the Java platform (NIO.2)",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f250"
+            },
+            {
+                "featureName": "NIO.2 filesystem provider for zip/jar archives",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa537814"
+            },
+            {
+                "featureName": "SCTP (Stream Control Transmission Protocol)",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f405"
+            },
+            {
+                "featureName": "SDP (Sockets Direct Protocol)",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f639"
+            },
+            {
+                "featureName": "Use the Windows Vista IPv6 stack",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa535996"
+            },
+            {
+                "featureName": "TLS 1.2",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa534339"
+            },
+            {
+                "featureName": "Elliptic-curve cryptography (ECC)",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f73"
+            },
+            {
+                "featureName": "JDBC 4.1",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa539110"
+            },
+            {
+                "featureName": "XRender pipeline for Java 2D",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f653"
+            },
+            {
+                "featureName": "Create new platform APIs for 6u10 graphics features",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f650"
+            },
+            {
+                "featureName": "Nimbus look-and-feel for Swing",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f244"
+            },
+            {
+                "featureName": "Swing JLayer component",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f652"
+            },
+            {
+                "featureName": "Gervill sound synthesizer",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa99999"
+            },
+            {
+                "featureName": "Update the XML stack",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#f568"
+            },
+            {
+                "featureName": "Enhanced MBeans",
+                "id": 0,
+                "jepUrl": "https://openjdk.org/projects/jdk7/features/#fa530068"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk7/features/"
+    }
+]
