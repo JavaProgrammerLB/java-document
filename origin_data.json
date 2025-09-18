@@ -1,5 +1,101 @@
 [
     {
+        "id": 25,
+        "javaVersionFeatures": [
+            {
+                "featureName": "PEM Encodings of Cryptographic Objects (Preview)",
+                "id": 470,
+                "jepUrl": "https://openjdk.org/jeps/470"
+            },
+            {
+                "featureName": "Stable Values (Preview)",
+                "id": 502,
+                "jepUrl": "https://openjdk.org/jeps/502"
+            },
+            {
+                "featureName": "Remove the 32-bit x86 Port",
+                "id": 503,
+                "jepUrl": "https://openjdk.org/jeps/503"
+            },
+            {
+                "featureName": "Structured Concurrency (Fifth Preview)",
+                "id": 505,
+                "jepUrl": "https://openjdk.org/jeps/505"
+            },
+            {
+                "featureName": "Scoped Values",
+                "id": 506,
+                "jepUrl": "https://openjdk.org/jeps/506"
+            },
+            {
+                "featureName": "Primitive Types in Patterns, instanceof, and switch (Third Preview)",
+                "id": 507,
+                "jepUrl": "https://openjdk.org/jeps/507"
+            },
+            {
+                "featureName": "Vector API (Tenth Incubator)",
+                "id": 508,
+                "jepUrl": "https://openjdk.org/jeps/508"
+            },
+            {
+                "featureName": "JFR CPU-Time Profiling (Experimental)",
+                "id": 509,
+                "jepUrl": "https://openjdk.org/jeps/509"
+            },
+            {
+                "featureName": "Key Derivation Function API",
+                "id": 510,
+                "jepUrl": "https://openjdk.org/jeps/510"
+            },
+            {
+                "featureName": "Module Import Declarations",
+                "id": 511,
+                "jepUrl": "https://openjdk.org/jeps/511"
+            },
+            {
+                "featureName": "Compact Source Files and Instance Main Methods",
+                "id": 512,
+                "jepUrl": "https://openjdk.org/jeps/512"
+            },
+            {
+                "featureName": "Flexible Constructor Bodies",
+                "id": 513,
+                "jepUrl": "https://openjdk.org/jeps/513"
+            },
+            {
+                "featureName": "Ahead-of-Time Command-Line Ergonomics",
+                "id": 514,
+                "jepUrl": "https://openjdk.org/jeps/514"
+            },
+            {
+                "featureName": "Ahead-of-Time Method Profiling",
+                "id": 515,
+                "jepUrl": "https://openjdk.org/jeps/515"
+            },
+            {
+                "featureName": "JFR Cooperative Sampling",
+                "id": 518,
+                "jepUrl": "https://openjdk.org/jeps/518"
+            },
+            {
+                "featureName": "Compact Object Headers",
+                "id": 519,
+                "jepUrl": "https://openjdk.org/jeps/519"
+            },
+            {
+                "featureName": "JFR Method Timing & Tracing",
+                "id": 520,
+                "jepUrl": "https://openjdk.org/jeps/520"
+            },
+            {
+                "featureName": "Generational Shenandoah",
+                "id": 521,
+                "jepUrl": "https://openjdk.org/jeps/521"
+            }
+        ],
+        "url": "https://openjdk.org/projects/jdk/25/"
+    },
+    {
         "id": 24,
         "javaVersionFeatures": [
             {
